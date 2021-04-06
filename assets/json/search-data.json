@@ -1,0 +1,20 @@
+searchData = [
+    {
+        "title": "Lorem Ipsum is simply dummy",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500st.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "assets/search-image.png",
+        "imgAlt": "search image"
+    },
+    {
+        "title": "Lorem Ipsum is simply dummy",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500st.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "assets/search-image.png",
+        "imgAlt": "search image"
+    },
+    {
+        "title": "Lorem Ipsum is simply dummy",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500st.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "assets/search-image.png",
+        "imgAlt": "search image"
+    }
+]
