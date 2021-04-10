@@ -56,15 +56,15 @@ function frameTemplate(searchData) {
     var result = [];
     for (var i=0; i < searchData.length; i++) {
         document.getElementById('search-result-count').innerHTML = 'Showing ' + searchData.length + ' results...'
-        result += "<div class='search-results'>" + 
-                "<div class='col-4'>" +
-                    "<img src=" + searchData[i].image + " alt=" + searchData[i].imgAlt + ">" +
-                "</div>" +
-                "<div class='col-8'>" +
-                    "<h4>" + searchData[i].title + "</h4>" +
-                    "<p>" + searchData[i].description + "</p>" +
-                "</div>" +
-            "</div>"
+        result += `<div class='search-results'>
+                <div class='col-4'>
+                    <img src="${searchData[i].image}" alt="${searchData[i].imgAlt}">
+                </div>
+                <div class='col-8'>
+                    <h4>${searchData[i].title}</h4>
+                    <p>${searchData[i].description}</p>
+                </div>
+            </div>`
     }
     document.getElementById('search-result').innerHTML = searchData.length !== 0 ? result : "<h4>No results found..! Please try with other search keyword..!!</h4>";
 }
